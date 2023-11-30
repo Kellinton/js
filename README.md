@@ -1,0 +1,2 @@
+# js-challenge
+Practicing JS
