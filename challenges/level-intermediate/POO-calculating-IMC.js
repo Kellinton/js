@@ -57,3 +57,6 @@ console.log(Luffy.classificarIMC());
 console.log(Ace.classificarIMC());
 
 
+
+
+
