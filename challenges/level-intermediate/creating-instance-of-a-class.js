@@ -6,6 +6,7 @@ class Pessoa {
 
     descrever() {
         console.log(`Meu nome é ${this.nome}. Tenho ${this.idade} anos.`);
+        
     }
 }
 
