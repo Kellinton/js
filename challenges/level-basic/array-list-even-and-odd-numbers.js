@@ -1,4 +1,4 @@
-// array que lista números pares e ímpares, e mostra a quantidade de cada um
+// array que lista números pares e ímpares, e mostra a quantidade de cada uma delas
 
 const numeros = [];
 const numerosPares = [];
