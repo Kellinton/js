@@ -3,6 +3,10 @@ const pessoa = {
     idade: 19,
 }
 
+function falar(prefixo) {
+    console.log(prefixo, this.nome)
+}
+
 // Chamando a função falar diretamente (sem contexto específico)
 falar("Oláá");
 // Resultado: "Oláá undefined", pois "this.nome" não está definido no escopo global
