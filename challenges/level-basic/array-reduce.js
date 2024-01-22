@@ -1,5 +1,5 @@
 // Fazendo a soma de uma lista/array com o método reduce
-
+// Reduce serve para diminuir/reduzir a lista ao combinar elementos de um em um até sobrar apenas um elemento
 const numeros = [];
 
 numeros.push(5);
