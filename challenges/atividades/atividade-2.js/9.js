@@ -6,14 +6,29 @@ o peso do saco de ração e a quantidade de ração fornecida para cada gato.
 Calcule e mostre quanto restará de ração no saco após 5 (cinco) dias
 
 */
+let racaoInicial = 200; // kilos
+let gatoUm = 40; // gramas
+let gatoDois = 80; // gramas
 
-let sacoRacao = 10; // kilos
-let gatoUm = 50; // gramas
-let gatoDois = 40; // gramas
+function calcularRacao(racaoInicial, gatoUm, gatoDois, tempoCallback) {
+    console.log(`
+    Calculando...
+    `);
 
+    setTimeout(() => {
+        const resultado = {
+            racaoFinal: racaoInicial - (gatoUm + gatoDois) * 5,
+            racaoConsumida: (gatoUm + gatoDois) * 5
+        };
 
-function calcularRacao(sacoRacao, gatoUm, gatoDois) {
-    
+        tempoCallback(resultado);
+    }, 2000);
 }
 
-const resultado = calcularRacao
+calcularRacao(racaoInicial, gatoUm / 1000, gatoDois / 1000, (resultado) => {
+    console.log(`
+    Ração consumida pelos gatos: ${resultado.racaoConsumida} KG
+    ------------------ // ----------------
+    Ração que restou: ${resultado.racaoFinal} KG
+    `);
+});
