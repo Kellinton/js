@@ -1,7 +1,6 @@
 // Elaborar um algoritmo que leia dois números e mostre sua soma,
 // subtração, divisão e multiplicação.
 
-// Verificar se um número é maior, menor ou igual a zero;
 
 function operacoes(n1, n2){
     const soma = n1 + n2;
