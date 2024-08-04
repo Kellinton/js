@@ -1,2 +1,1 @@
-# js-challenge
-Practicing JS
+# js
